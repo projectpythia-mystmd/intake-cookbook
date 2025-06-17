@@ -19,3 +19,4 @@ dependencies:
   - numpy<2
   - pip:
       - intake-markdown
+  - mystmd

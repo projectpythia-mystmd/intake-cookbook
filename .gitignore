@@ -132,3 +132,6 @@ dmypy.json
 
 #demo directory
 notebooks/intake-demo/
+
+# MyST build outputs
+_build

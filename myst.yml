@@ -1,0 +1,26 @@
+version: 1
+extends:
+  - https://raw.githubusercontent.com/projectpythia-mystmd/pythia-config/main/pythia.yml
+project:
+  title: Intake Cookbook
+  authors:
+    - name: James Morley
+  github: https://github.com/projectpythia-mystmd/intake-cookbook
+  copyright: '2024'
+  toc:
+    - file: README.md
+    - title: Preamble
+      children:
+        - file: notebooks/how-to-cite.md
+    - title: Intoduction to Intake
+      children:
+        - file: notebooks/intake_introduction.ipynb
+        - file: notebooks/creating_catalogs.ipynb
+  jupyter:
+      binder:
+        repo: projectpythia-mystmd/intake-cookbook
+site:
+  options:
+    logo: notebooks/images/logos/pythia_logo-white-rtext.svg
+    folders: true
+  template: book-theme
